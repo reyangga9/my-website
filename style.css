@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+header {
+    text-align: center;
+    height: 200px;
+}
+
+.header-link li {
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px 60px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.top-wrapper {
+    padding: 50px 0px;
+    background-color: #f1ece5;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.btn {
+    width: 120px;
+    height: 70px;
+    background-color: #4690bb;
+    display: block;
+    margin: auto;
+    line-height: 70px;
+    color: white;
+}
+
+.lesson-wrapper .container {
+    padding: 40px;
+}
+
+.lessons {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lessons h1 {
+    text-shadow: 2px 2px #000000;
+}
+
+.lesson {
+    background-color: #4690bb;
+    margin-right: 20px;
+    padding: 10px;
+    color: rgb(224, 224, 224);
+    justify-content: space-evenly;
+    width: 32%;
+    margin: 20px auto;
+}
+
+.lesson a {
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 100px;
+    list-style: none;
+    border-top: 1px solid rgb(46, 38, 39, 0.2);
+}
+
+footer .container {
+    height: 50px;
+}
+
+.container .right {
+    float: right;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.container .right li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.container .right a {
+    color: black
+}
+
+.container .left {
+    float: left;
+    padding: 15px;
+}
+
+.section-title {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
