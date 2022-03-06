@@ -1,0 +1,35 @@
+@media(max-width:1060px) {
+    .container {
+        width: 100%;
+    }
+    .main {
+        height: 1000px;
+    }
+    .lessons {
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .lesson {
+        font-size: 18px;
+        width: 90%;
+        padding: 30px;
+        line-height: 25px;
+    }
+    main .section-title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:690px) {
+    .lesson {
+        width: 100%;
+        font-size: 18;
+    }
+    .header-link {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        /* Gantikan property display ke none */
+    }
+}
